@@ -409,6 +409,11 @@ border: 2px solid #2B0236;
     border: #9A54BC;
     color: white;
 }
+.explore:hover{
+    background-color: white;
+    color: #9A54BC;
+    border: 1px solid #9A54BC;
+}
 
 .photoContainer{
     display: flex;
