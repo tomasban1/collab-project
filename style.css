@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+h2{
+    font-size: 23px;
+}
+.topline{
+    width: 100%;
+    height: 30px;
+    background-color: #60267F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.topLinePara{
+    font-size: 8px;
+}
+.learnMore{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.headercontainer{
+    display: flex;
+    justify-content:space-between ;
+    align-items:center;
+    height: 50px;
+    padding: 0 30px;
+}
+.headercontainer img{
+    width: 150px;
+}
+.navcontainer nav{
+    display: flex;
+    gap: 20px;
+}
+.navcontainer nav ul{
+    display: flex;
+    gap: 20px;
+}
+.navcontainer nav ul li{
+    list-style: none;
+}
+.navcontainer nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+.headerButton{
+    border: none;
+    background: transparent;
+    border: 2px solid #9A54BC;
+    color: #9A54BC;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.headerButton:hover{
+    background-color: #9A54BC;
+    color: white;
+}
+.topSection{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 50px;
+gap: 30px;
+}
+
+.topSectionHeader{
+font-size: 32px;
+text-align: center;
+color: #2B0236;
+}
+
+.topSectionButton{
+background-color: #9A54BC;
+padding: 10px 15px;
+border: 1px solid #9A54BC;
+border-radius: 5px;
+color: white;
+font-weight: 500;
+cursor: pointer;
+}
+.topSectionButton:hover{
+    background-color: white;
+    color: #9A54BC;
+
+}
+.elipseContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 500px;
+    width: 100%;
+
+}
+.absolute{
+    position: absolute;
+}
+.smallElipse{
+top: 57px;
+}
+.rectangle{
+    top:64px;
+}
+.collab{
+    top: 120px;
+}
+.elipseBtn{
+bottom: 155px;
+padding: 5px 10px;
+font-size: 12px;
+background-color: white;
+border-radius: 3px;
+border: 1.5px solid #9A54BC;
+color: #60267F;
+cursor: pointer;
+}
+.elipseBtn:hover{
+    background-color: #9A54BC;
+    color: white;
+}
+.iconsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 45px;
+}
+.icons{
+    width: 67%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around; 
+}
+
+.bigPhoneContainer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.vendorAppAndPhoneContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    gap: 90px;
+    
+}
+.paragraph{
+    width: 400px;
+    height: 300px;
+    
+
+}
+.VendorAppPhone{
+    width: 50%;
+}
+.paragraphBtnContainer{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    gap: 5px;
+    border-radius: 7px;
+    box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.75)
+
+}
+.paragraphBtnContainer>button{
+    width:50%;
+    padding: 5px 0px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.paragraphBtnContainer>button:hover{
+    border: #9A54BC 2px solid;
+    border-radius: 3px;
+    background-color: #60267F;
+    color: white;
+}
+.paragraphContainer{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+.vendorPara{
+    background-color: #F2F2F2;
+    width: 95%;
+    padding: 10px 15px;
+    font-size: 12px;
+
+}
+.vendorPara span{
+    font-weight: 600;
+    font-size: 11px;
+}
+.vendorAppPhone{
+    display: flex;
+    justify-content: center;
+
+}
+
+.videoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-top: 160px;
+}
+.videoContainer p {
+text-align: center;
+width: 75%;
+font-size: 14px;
+
+}
+.smallCardsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.smallCardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cardContainer {
+    display: flex;
+    gap: 40px;
+}
+
+/* .span1{
+    display: flex;
+    flex-direction: column;
+} */
+.smallCard {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.smallCard span {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.span1 {
+    color: #9A54BC;
+
+}
+
+.bigThreeCardsContainer {
+    margin-top: 75px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .bigThreeCardsContainer{
+    color: #A79D9D;
+} */
+.discountContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.yearly {
+    color: black !important;
+
+}
+
+.discount {
+    font-size: 8px !important;
+    background-color: #FFE87A;
+    padding: 2px;
+    border-radius: 5px;
+    color: black !important;
+}
+
+.bigCardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 50%;
+}
+
+.bigCard {
+    border: 1px #AAAAAA solid;
+    padding: 20px 25px;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    
+}
+.bigCardLast{
+    border: 1px #AAAAAA solid;
+    padding: 20px 25px;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    background-color: #56E6A5;
+}
+
+.bigCardPara {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bigCard button {
+    border: 2px solid #2B0236;
+    color: #2B0236;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.bigCard button:hover{
+    background-color: #2B0236;
+    color: white;
+}
+.bigCardLast > button{
+border: 2px solid #2B0236;
+    color: #2B0236;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.bigCardLast>button:hover{
+    background-color: #2B0236;
+    color: white;
+}
+
+.bigCardsList li::marker {
+    content: "▶";
+
+}
+
+.bigCardsList li {
+    padding-left: 10px;
+}
+
+.startSec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E2BDF21C;
+    padding: 6rem;
+}
+.paragraph{
+    width: 700px;
+    height: 104px;
+}
+.joinUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.explore{
+    padding: 10px 15px;
+    border-radius: 1px;
+    background-color: #9A54BC;
+    border: #9A54BC;
+    color: white;
+}
+
+.photoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.vector{
+    width: 800px;
+}
+.photo1{
+    position: absolute;
+    width: 80px;
+    left: -38px;
+    top: 3px;
+}
+.photo2{
+    position: absolute;
+    width: 80px;
+    left: 85px;
+    bottom: 18px;
+}
+.photo3{
+    position: absolute;
+    width: 80px;
+    left: 215px;
+    bottom: 44px;
+}
+.photo4{
+    position: absolute;
+    width: 80px;
+    bottom: -9px;
+    left: 304px;
+}
+.photo5{
+    position: absolute;
+    width: 80px;
+    bottom: -25px;
+    right: 291px;
+}
+.photo6{
+    position: absolute;
+    width: 80px;
+    bottom: -10px;
+    right: 123px;
+}
+.photo7{
+    position: absolute;
+    width: 80px;
+    right: -2px;
+    bottom: -3px;
+}
+.photo8{
+    position: absolute;
+    width: 80px;
+    right: -23px;
+}
+
+
+.purpleSection {
+    display: flex;
+    margin-top: 85px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9A54BC;
+    gap: 25px;
+    padding: 100px;
+    margin-top: 85px;
+}
+
+.purpleSectionText {
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.btnSection {
+    display: flex;
+    gap: 15px;
+}
+
+.purpleSectionBtnWhite {
+    border: none;
+    background: transparent;
+    border: 1px solid white;
+    color: #9A54BC;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.purpleSectionBtnWhite:hover{
+    color: white;
+    background-color: #9A54BC;
+}
+
+.purpleSectionBtnPurple {
+    border: none;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    background-color: #9A54BC;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.purpleSectionBtnPurple:hover{
+    color: #9A54BC;
+    background-color: white;
+}
+
+.mapSec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+}
+.question{
+font-size: 33px;
+}
+.info{
+font-weight: bold;
+margin-top: 50px;
+}
+
+.last-part {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+}
+
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+}
+
+.left-side p {
+    width: 60%;
+
+}
+
+.left-side>img {
+    width: 100px;
+    height: 50px;
+}
+
+
+.left-side span {
+    font-weight: 700;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.last-layout {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.stulpeliu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 4rem;
+}
+
+.right-side p {
+    color: #60267F;
+}
+
+.susisiekime {
+    display: flex;
+    gap: 1.5rem;
+    margin: 4rem;
+}
+
+footer {
+    background-color: #9A54BC;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding-top: 8px;
+
+}
+
+.copyright {
+    height: 15px;
+    width: 15px;
+    margin-top: 2px;
+
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.kontaktai{
+    text-align: center;
+}
+.info{
+    gap: 10px;
+}
